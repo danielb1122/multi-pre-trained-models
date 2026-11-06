@@ -13,12 +13,14 @@ Retained source files: `empirical_exp2_new.py`, `numeric.py`, `combined_plot.py`
 `decomposition_plot.py`, and `de_be.py`. Names are retained for traceability.
 `paper_utils.py` and `tests/` are new portability/verification helpers.
 
-The CPU templates in `slurm/` replace machine-specific launchers:
+The optional, site-independent CPU templates in `slurm/` replace machine-specific launchers:
 `foab_sbatch` launched covariance-factor runs; `sbatch_plot` actually launched
 heterogeneous-source experiments; `new_sbatch` launched theory; `plot_sbatch`
 and `plot_sbatch_de_be` launched plotting. These launchers had hard-coded paths,
 an environment name, personal email, and exploratory settings. Their old resource
 requests and exploratory grids are not presented as publication settings.
+All experiments also run directly with Python, with no scheduler or institutional
+account; see the main README. Slurm does not change the scientific procedure.
 
 Excluded: CIFAR/UTKFace/ResNet transfer experiments, `real_dataset/`, old duplicate
 engines, empty scripts, LMMSE exploration, heatmap exploration (not in this PDF),
