@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # CPU-only template; provide site/resource options to sbatch, not in this file.
-#SBATCH --job-name=synthetic-theory
+#SBATCH --job-name=transfer-theory
 #SBATCH --ntasks=1
 #SBATCH --output=.slurm/logs/numeric-%j.out
 #SBATCH --error=.slurm/logs/numeric-%j.err

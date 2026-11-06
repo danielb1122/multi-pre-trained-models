@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Plotting can simulate CPU baselines; do not run it on a cluster login node.
-#SBATCH --job-name=synthetic-plot
+#SBATCH --job-name=transfer-figures
 #SBATCH --ntasks=1
 #SBATCH --output=.slurm/logs/plot-%j.out
 #SBATCH --error=.slurm/logs/plot-%j.err

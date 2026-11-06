@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # CPU-only template; select partition, time, memory, CPUs and account at submission.
-#SBATCH --job-name=synthetic-transfer
+#SBATCH --job-name=transfer-experiments
 #SBATCH --ntasks=1
 #SBATCH --array=0-0%1
 #SBATCH --output=.slurm/logs/empirical-%A_%a.out

@@ -1,4 +1,4 @@
-"""Synthetic transfer, debiasing, decomposition, and heterogeneous-source experiments."""
+"""Transfer learning, debiasing, decomposition, and heterogeneous-source experiments."""
 import argparse
 import os
 os.environ.setdefault("MPLBACKEND", "Agg")

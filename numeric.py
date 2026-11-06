@@ -1,4 +1,4 @@
-"""Numerical evaluation of the synthetic transfer-learning theory."""
+"""Numerical evaluation of transfer-learning theory with multiple pretrained models."""
 import argparse
 import os
 os.environ.setdefault("MPLBACKEND", "Agg")

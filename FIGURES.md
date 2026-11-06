@@ -94,7 +94,7 @@ with rank 96, fixed in the recovered engine. Plot their saved folders with
 `combined_plot.py --emp_only True`. The paper's multi-panel layout is assembled
 in the manuscript; these scripts produce constituent plots, not the LaTeX layout.
 
-## Reproducibility limits to resolve before a publication rerun
+## Reproduction settings and protocol notes
 
 1. Appendix H specifies 25 nonuniform source ratios, 2,000 repetitions, and 30
    alpha values in [1e-4,1e2]. The current empirical defaults are 36 requested
