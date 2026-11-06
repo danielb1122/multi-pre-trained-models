@@ -1,0 +1,25 @@
+# Generated experiment outputs, not source data.
+artifacts/
+.slurm/
+results/
+graphs/
+decomposition_2/
+numeric_result_icecream/
+heatmap/
+*.npy
+*.npz
+*.png
+*.jpg
+*.pdf
+*.xlsx
+*.csv
+*.out
+*.err
+*.log
+*.zip
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+.pytest_cache/
